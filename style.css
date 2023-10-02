@@ -1,0 +1,117 @@
+
+.navigation {
+  background-color: white;
+  display: flex;
+  border: 1px solid white;
+  width: 1000px;
+margin: 0 auto;
+justify-content: space-between;
+  
+}
+.links a {text-decoration:none;
+          font-family:Roboto,Ariel,sans-serif;
+           color:#ababab ;
+         }
+.links{
+  padding-top: 7px;
+  word-spacing: 6px;
+}
+a:hover{color: #00b39b;}
+.dropdown-cont{display: none;
+position: absolute;
+box-shadow:  0 5px 10px 0 #d3cfc9;}
+.dropdown-cont a {line-height: 120%;}
+.dropdown-cont ul li {margin-top: 18px;}
+.dropdown-cont ul { list-style: none; width: 200px;}
+.dropdown-cont:hover .dropdown-cont{display:block}
+.dropdown:hover .dropdown-cont a:hover{background-color: #f6f8f8;}
+
+.haut{
+  background-color: white;
+  display: grid;
+grid-template-columns: 25% 75%;
+}
+.im{padding-left: 750px;
+padding-top: 50px;}
+h1{color: #00b39b;
+font-family: Work Sans,Arial,sans-serif;
+font-weight: 300;  
+font-size: 2.125rem;
+padding-top: 70px;
+padding-right: 100px;}
+
+.boxs {
+  text-align: start;
+  padding-left: 250px;
+  display: grid;
+grid-template-columns:50% 50%;
+color: #747474;
+font-family: roboto,arial,sans-serif;
+}
+.tableau{ 
+ display: grid;
+ grid-template-columns:25% 25% 25%;
+ justify-content: center;
+}
+.pa{
+  border-radius: 10px;
+  color:white;
+  margin:10px;
+  padding:22px 0px;
+  width: 300px;
+  font-weight: 400;
+  height:300px;
+
+}
+.country-option{text-decoration: underline;
+               background-color:transparent;
+               color:white;
+               text-decoration-color: white;
+               border: white;
+
+}
+.content{color: black;}
+.tab1{background-color: #5dc6b0;
+}
+.tab2{background-color: #4293db; 
+}
+.tab3{background-color: #1b2734;
+}
+
+.mid{display: grid;
+grid-template-columns: 25% 75%
+;}
+
+
+.big{background-color: #bee1e6; 
+width: 1500px;
+height: 800px;
+display: grid;
+grid-template-columns: 3fr 2fr 1fr;}
+.big-logo{height: 231px;
+width: 100%;}
+.stats{display: grid; 
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: ;
+  column-gap: 5px;
+  text-align: center;
+width: 60%;
+margin: 0 20px 0 120px;}
+.stats h3 
+{color: rgb(0,197,155);
+font-family: roboto,arial,sans-serif;
+font font-size: 14px;
+font-weight:100;}
+.stats-box{
+  height: 190px;
+  background-color: white;
+  border-radius: 7%;
+  width: 250px;
+}
+.blue{color: #4293db;}
+h4{align-self: center;}
+.fin{text-align: center;}
+.org{display: grid;
+grid-template-columns:auto auto auto ;
+grid-template-rows: auto auto auto auto; }
+.orgfin{text-align: center;}
